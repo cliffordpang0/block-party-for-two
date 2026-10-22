@@ -1,4 +1,4 @@
-# Our Minecraft World �X browser client + local 1.12.2 server
+# Our Minecraft World — browser client + local 1.12.2 server
 
 ## Version 1.1.1: minimap compilation fix
 
@@ -56,17 +56,17 @@ Keep the launcher and PC running while playing. The public hostname normally cha
 
 Shared multiplayer progress lives on your PC, not in either player's browser:
 
-- `server/<selected-world>/` �X Overworld, player inventories and progression.
-- `server/<selected-world>_nether/` �X Nether.
-- `server/<selected-world>_the_end/` �X End and dragon progression.
-- `server/world-catalog.json` �X world display names and folder names.
-- `server/plugins/AuthMe/` �X local server accounts.
+- `server/<selected-world>/` — Overworld, player inventories and progression.
+- `server/<selected-world>_nether/` — Nether.
+- `server/<selected-world>_the_end/` — End and dragon progression.
+- `server/world-catalog.json` — world display names and folder names.
+- `server/plugins/AuthMe/` — local server accounts.
 
 The initial configuration requests an autosave every 60 seconds. To finish a session, type **stop** in the launcher. This tells Minecraft to save and stop cleanly, closes the public link, then makes a dated combined-world ZIP and checksum in `backups/`. Wait for **Backup saved** before closing the window.
 
-Typing **backup** also safely stops the game before archiving. `BACKUP.bat` makes a backup when the launcher is already stopped; it refuses if this launcher's lock indicates it is running. It cannot detect unrelated Java processes started manually�Xdo not use another server launcher on the same world.
+Typing **backup** also safely stops the game before archiving. `BACKUP.bat` makes a backup when the launcher is already stopped; it refuses if this launcher's lock indicates it is running. It cannot detect unrelated Java processes started manually—do not use another server launcher on the same world.
 
-Do not force-close the server during saves. The launcher retains backups rather than automatically deleting old ones. Copy important backups to another disk. PowerShell's ZIP implementation has size limits; if a large-world backup fails, your live saved worlds remain intact�Xcopy the stopped `server` folder instead.
+Do not force-close the server during saves. The launcher retains backups rather than automatically deleting old ones. Copy important backups to another disk. PowerShell's ZIP implementation has size limits; if a large-world backup fails, your live saved worlds remain intact—copy the stopped `server` folder instead.
 
 ## Restore a backup
 

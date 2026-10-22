@@ -13,7 +13,7 @@ export async function catalogue(base=at('server')){
  await writeFile(f,JSON.stringify(rows,null,2));return {rows,active};
 }
 export async function createWorld(name,base=at('server')){
- name=String(name).trim();if(!name||name.length>60||/[\x00-\x1f]/.test(name))throw Error('Use a world display name of 1�V60 characters.');
+ name=String(name).trim();if(!name||name.length>60||/[\x00-\x1f]/.test(name))throw Error('Use a world display name of 1–60 characters.');
  const c=await catalogue(base);const slug=name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,35)||'adventure';
  let level='world-'+slug,i=2;while(c.rows.some(r=>r.level===level)||await exists(path.join(base,level)))level='world-'+slug+'-'+i++;
  const entry={name,level};c.rows.push(entry);await writeFile(path.join(base,'world-catalog.json'),JSON.stringify(c.rows,null,2));return entry;

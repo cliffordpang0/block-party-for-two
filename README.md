@@ -1,25 +1,25 @@
-# ?? Block Party for Two
+# 🧱 Block Party for Two
 
 **Build a home. Get lost together. Blame the creeper.**
 
-A Windows launcher for a self-hosted Minecraft 1.12.2 browser adventure, with a little minimap to answer the eternal question: *��Where did you go?��*
+A Windows launcher for a self-hosted Minecraft 1.12.2 browser adventure, with a little minimap to answer the eternal question: *“Where did you go?”*
 
 Your PC hosts the world. Your favorite human joins through a browser link. Your questionable architecture stays saved locally.
 
 ## What's in the party bag?
 
-- ??? **Upper-left minimap:** nearby terrain, coordinates, facing directions, and player markers. Gold is you; blue is your adventuring buddy.
-- ?? **World picker:** keep multiple worlds in one installation and choose one at startup.
-- ?? **Local saves and combined backups:** Overworld, Nether, End, inventories, and world catalogue stay on the host PC.
-- ?? **One-link invites:** type `share` to start a temporary HTTPS tunnel and get a browser invitation.
-- ?? **Survival progression:** crafting, mobs, Nether, End, and dragon progression come from the upstream game and server.
-- ?? **Co-op defaults:** two players, normal difficulty, PvP off. Friendship damage from stealing diamonds remains unpatched.
+- 🗺️ **Upper-left minimap:** nearby terrain, coordinates, facing directions, and player markers. Gold is you; blue is your adventuring buddy.
+- 🌍 **World picker:** keep multiple worlds in one installation and choose one at startup.
+- 💾 **Local saves and combined backups:** Overworld, Nether, End, inventories, and world catalogue stay on the host PC.
+- 🔗 **One-link invites:** type `share` to start a temporary HTTPS tunnel and get a browser invitation.
+- 🐉 **Survival progression:** crafting, mobs, Nether, End, and dragon progression come from the upstream game and server.
+- 🤝 **Co-op defaults:** two players, normal difficulty, PvP off. Friendship damage from stealing diamonds remains unpatched.
 
 This is an **unofficial launcher and minimap integration** around an existing Eaglercraft browser client and Paper server. It is not a newly authored game engine or an official Mojang/Microsoft release. This repository contains the launcher, gateway, minimap source, and tests; game binaries and runtimes download separately at setup.
 
 ## Start your adventure
 
-1. Download this repository using **Code �� Download ZIP**, then extract it to a permanent folder on your Windows PC.
+1. Download this repository using **Code → Download ZIP**, then extract it to a permanent folder on your Windows PC.
 2. Install [Node.js 20 or newer](https://nodejs.org/).
 3. Double-click **START.bat**. First launch downloads the pinned dependencies and a portable Java JDK if needed. Allow a few hundred MB for setup.
 4. Read the [Minecraft EULA](https://www.minecraft.net/eula) and type `AGREE` only if you accept it.
