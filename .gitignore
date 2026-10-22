@@ -1,0 +1,28 @@
+# Private worlds, accounts, settings, and invitation keys
+/server/
+/local-config.json
+/INVITE.txt
+/launcher.lock
+/backups/
+
+# Downloaded upstream software and generated plugin
+/runtime/
+/compile-libs/
+/plugin-build/
+/plugin-build.json
+/web/assets.epw
+/web/bootstrap.js
+/web/favicon.png
+*.jar
+*.class
+*.exe
+*.zip
+*.download
+
+# Local tooling and logs
+node_modules/
+.env
+.env.*
+*.log
+Thumbs.db
+.DS_Store

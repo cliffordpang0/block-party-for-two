@@ -1,0 +1,5 @@
+name: OurMinimap
+main: home.map.OurMinimap
+version: 1.0.0
+description: Local terrain and player map bridge for the browser HUD.
+softdepend: [AuthMe]

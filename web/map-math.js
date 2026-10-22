@@ -1,0 +1,2 @@
+export function markerPosition(player,center,pixels=198){const span=center.size*center.step;const scale=pixels/span;const x=pixels/2+(player.x-center.cx)*scale,y=pixels/2+(player.z-center.cz)*scale;return {x:Math.max(8,Math.min(pixels-8,x)),y:Math.max(8,Math.min(pixels-8,y)),outside:x<0||y<0||x>pixels||y>pixels,rotation:(player.yaw+180)*Math.PI/180,distance:Math.round(Math.hypot(player.x-center.x,player.z-center.z))};}
+export const dimensionLabel=d=>({NORMAL:'Overworld',NETHER:'Nether',THE_END:'The End'}[d]||d);

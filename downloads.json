@@ -1,0 +1,25 @@
+{
+  "serverRepository":"Eaglercraft-Templates/Eaglercraft-Server-Paper",
+  "serverCommit":"aa9feab237068076786f8b6268d537c83491ca3c",
+  "clientRepository":"JessePinkman27/eaglercraft-1.12.2",
+  "clientCommit":"d9e759ec21fdb807742201b11de8835e34ccd48a",
+  "serverFiles":[
+    {"path":"paper-1.12.2.jar","sha":"d846862d27a9d2933c70303f23c850951a3dc0ed","size":40979699},
+    {"path":"plugins/AuthMe.jar","sha":"c06b64188ea428f714cdf9a7b67024914416be52","size":18511518},
+    {"path":"plugins/AuthMe/config.yml","sha":"64c7f51b25aac87d4aac1a3ffe2bc4833a2dc750","size":26451},
+    {"path":"plugins/EaglerXRewind.jar","sha":"80355ed67c8db7574c7bae6893b0cf5d8c744095","size":105742},
+    {"path":"plugins/EaglerXServer.jar","sha":"20d4ee0284f5903f27b798edec8ab832b7576cc3","size":8787134},
+    {"path":"plugins/SkinsRestorer.jar","sha":"42b7dbb5e26f41bb87516a6633480ac5b9fced91","size":5375359},
+    {"path":"plugins/ViaBackwards.jar","sha":"aa5a1063fe2c28ff1e99630272f3a11336efb291","size":1262830},
+    {"path":"plugins/ViaRewind-Legacy-Support.jar","sha":"bb110b1506074e5b3f1b302a52ae05659dbd4a82","size":35161},
+    {"path":"plugins/ViaRewind.jar","sha":"fd5984aea391d09553719c6071717d077b2d4735","size":377283},
+    {"path":"plugins/ViaVersion.jar","sha":"af6b890666d511e1c6fe5d7e5e53f94ada0152be","size":5450855}
+  ],
+  "clientFiles":[
+    {"path":"web/wasm/assets.epw","sha":"32eee7b50f1e107f2dffb856c2b33daebf97bd96","size":18789848},
+    {"path":"web/wasm/bootstrap.js","sha":"9442799110b348711a26f232d17aaef58b4a911f","size":7830},
+    {"path":"web/wasm/favicon.png","sha":"9c9fc8980fc3d08e489084122e80d35a80fd2705","size":1258}
+  ],
+  "tunnel":{"url":"https://github.com/cloudflare/cloudflared/releases/download/2026.10.3/cloudflared-windows-amd64.exe","sha256":"76b2805253d0d6ffacb092a7acfbee99e7af6917835c0c5410e23f3ef5052da2","size":55329336},
+  "compileApi":{"url":"https://hub.spigotmc.org/nexus/repository/snapshots/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-20180712.012057-156-shaded.jar","sha1":"e2be6ab07ea3ee665c1d1322265763b99d6f0878","size":4341501}
+}
