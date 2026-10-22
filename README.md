@@ -34,6 +34,22 @@ Type `share` in the launcher and send your friend the complete invitation link, 
 
 The invite uses Cloudflare's Quick Tunnel service. It is intended for temporary sessions and can have service limits. No router configuration is changed by this launcher.
 
+## Can more than two players join?
+
+Yes! Two is the default player limit, and you can raise it for a bigger block party.
+
+1. Type `stop` in the launcher and wait for shutdown and the backup to finish.
+2. Open `server/server.properties` in your extracted installation folder.
+3. Change `max-players=2` to your desired limit, for example:
+
+```properties
+max-players=10
+```
+
+4. Save the file and restart `START.bat`. Invite the other players using the complete link from `share`.
+
+The minimap supports multiple player markers. Capacity is not unlimited: smooth play depends on the host PC's CPU and RAM, internet upload speed, and tunnel performance. Raising the limit does not guarantee that many players will run smoothly; larger groups have not been load-tested.
+
 ## Find each other (finally)
 
 After logging in, press **Esc** to release the mouse and choose your nickname in the map panel. Press **M** to hide or show it. Nearby terrain updates roughly every two seconds. Players in another dimension are labelled by dimension; unloaded terrain stays dark.
